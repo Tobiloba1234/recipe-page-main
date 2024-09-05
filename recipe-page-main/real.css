@@ -1,0 +1,255 @@
+body{
+  font-size: 16px;
+  color:black;
+  background:  hsl(30, 54%, 90%);
+  background-repeat: repeat;
+  font-family: 'Young Serif',serif;
+  font-weight:50;
+  font-style:normal;
+
+ 
+}
+
+.container{
+  background:white;
+  margin:12px;
+  padding:30px;
+  border-radius: 20px;
+}
+img{
+  max-width:100%;
+  border-radius: 20px;
+  height:auto;
+}
+
+.Recipe{
+  font-size: 32px;
+  color:black;
+}
+
+.Dish{
+  color:black;
+  font-size: smaller;
+  font-weight: lighter;
+  margin-top:-15px;
+}
+.Prep-time{
+  border-color: hsl(332, 51%, 32%);
+  border-radius:10px;
+  border-bottom: 20px solid transparent;
+  background:hsl(332, 50%, 96%);
+  
+}
+
+.Prep-text{
+  color: hsl(332, 51%, 32%);
+  font-size:20px;
+  font-weight: 800;
+  margin-left: 20px;
+ 
+}
+.Ingre-content{
+  line-height:2;
+}
+
+.list{
+ border-top:1rem;
+ 
+}
+
+.Instr-text{
+  line-height: 1.8;
+  margin-bottom:1rem;
+}
+
+p{
+  color:  hsl(14, 45%, 36%);
+  font-weight: 800;
+  font-size: 40px;
+  
+}
+
+ul li{
+  margin-bottom:1rem;
+}
+ul li::marker {
+  color:  hsl(14, 45%, 36%);
+  
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  
+}
+
+.Cal-Nutr{
+  border-color: rgb(248, 241, 241);
+  border-style: solid;
+  border-top:transparent solid;
+  border-left:transparent solid;
+  border-right: transparent solid;
+  padding:12px;
+  color:black;
+  font-family:"Outfit";
+  font-weight: 200; 
+  font-size:20px;
+  
+}
+
+
+.Carb-Nutr{
+  border-color:rgb(247, 244, 244);
+  border-style: solid;
+  border-top:transparent solid;
+  border-left:transparent solid;
+  border-right: transparent solid;
+  padding:12px;
+  color:black;
+  font-family:"Outfit";
+  font-weight: 200;
+  font-size:20px;
+}
+.Prot-Nutr{
+  border-color: rgb(247, 244, 244);
+  border-style: solid;
+  border-top:transparent solid;
+  border-left:transparent solid;
+  border-right: transparent solid;
+  padding:12px;
+  color:black;
+  font-family:"Outfit";
+  font-weight:200;
+  font-size:20px;
+}
+.Fat-Nutr{
+  padding:12px;
+  color:black;
+  font-family:"Outfit";
+  font-weight: 200;
+  font-size:20px;
+}
+.Nutr1{
+  font-family:"Young-Serif";
+  font-weight:800;
+  margin: 18.2rem;
+  color: hsl(14, 45%, 36%);
+}
+
+
+.Nutr2{
+  font-family:"Young-Serif";
+  font-weight:800;
+  margin: 19.5rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.Nutr3{
+  font-family:"Young-Serif";
+  font-weight:800;
+  margin:18.9rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.Nutr4{
+  font-family:"Young-Serif";
+  font-weight:800;
+  margin:20.9rem;
+  color: hsl(14, 45%, 36%);
+}
+
+/* Styles for desktop */
+
+@media (min-width: 1440px) {
+  /* code for desktop styles */
+  body {
+  font-size: 20px;
+  /*display: flex;
+  justify-content: center; 
+  align-items: center; */
+  }
+
+ .container {
+    background:white;
+    margin:100px auto;
+    padding:40px;
+    width:900px;
+    height:2340px;
+    border-radius: 20px;
+}
+}
+/* Styles for mobile */
+
+@media (max-width: 375px) {
+  /* code for mobile styles */
+body{
+    width:100px;
+    height:100%;
+}
+ 
+.container {
+    background:white;
+    margin:0 auto;
+    padding:15px;
+    width:315px;
+    height:2500px;
+    border-radius: 20px;
+}
+
+.Cal-Nutr{
+  padding-left:1.2rem;
+}
+
+.Carb-Nutr{
+   padding-left:1.2rem;
+}
+.Prot-Nutr{
+   padding-left:1.2rem;
+}
+
+.Fat-Nutr{
+   padding-left:1.6rem;
+}
+
+.Nutr1{
+  margin: 4.1rem;
+  font-weight:1000;
+  color: hsl(14, 45%, 36%);
+}
+
+
+.Nutr2{
+  margin: 5.5rem;
+  font-weight:1000;
+  color: hsl(14, 45%, 36%);
+}
+
+.Nutr3{
+  margin:4.9rem;
+  font-weight:1000;
+  color: hsl(14, 45%, 36%);
+}
+
+.Nutr4{
+  margin:6.9rem;
+  font-weight:1000;
+  color: hsl(14, 45%, 36%);
+}
+
+.attribution {
+  font-size: 18px; 
+  text-align: center;
+  position: inherit;
+}   
+.attribution a {
+   color: hsl(228, 45%, 44%); 
+}
+}
+
+.attribution {
+   font-size: 11px; 
+   text-align: center;
+}
+    
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
